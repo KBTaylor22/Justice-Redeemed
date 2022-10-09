@@ -1,0 +1,39 @@
+html {
+    background-color: rgb(4, 128, 128);
+}
+header {
+    text-align: center;
+    font-size: 40px;
+    font-style: bold aqua;
+    text-decoration: underline;
+    padding: 40px;
+}
+body {
+    color: black;
+    margin: 
+}
+
+div {
+    text-align: center;
+    padding-bottom: 20px;
+}
+img{  
+    height: 400px;  
+    width: auto;  
+}  
+h1 {
+    font-size: 30px;
+}
+p {
+    text-align: justify;
+    color: white;
+}
+strong {
+    color: crimson;
+}
+ul li {
+    color: white;
+}
+strong {
+    color: rgb(107, 5, 5);
+}

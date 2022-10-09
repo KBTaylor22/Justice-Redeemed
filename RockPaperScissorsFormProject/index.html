@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="title">
+        <h1>Rock Paper Scissors</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="images">
+        <img src="images/rock.jpg" height="200px" />
+        <img src="images/paper.jpg" height="200px" />
+        <img src="images/scissors.jpg" height="200px" />
+      </div>
+      <!-- Your code here -->
+      <form action="https://rockpaperscissors.ctkraleigh.com/validate" method="post">
+            <label for="name" >Name</label>
+            <input type="text" name="name" id="name" minlength="3" maxlength="25">
+            <label for="choice">Choice</label>
+            <select  id="choice" name="choice" required="required">
+              <option choice="">None</option>
+              <option choice="rock">rock</option>
+              <option choice="paper">paper</option>
+              <option choice="scissors">scissors</option>
+            </select>
+            <label for="number">Verification Number:</label>
+            <input type="range" id="number"  name="number" min="32" max="64" step="2" required="required">
+            <fieldset >
+              <label>Play Against:</label> <br>
+              <input type="radio" id="player" name="player" value="human" aria-required="true">
+              <label for="human">Human</label>
+              <input type="radio" id="player" name="player" value="human" aria-required="true">
+              <label for="comp">Computer</label>
+            </fieldset><br>
+              <div>
+              <input type="checkbox" id="isHuman" name="isHuman" value="isHuman" required="required">
+              <label for="isHuman"> I am a human</label>
+              </div>
+              <button type="submit">Submit</button>
+      </form> 
+      
+    </div>
+  </body>
+</html>
